@@ -1,0 +1,58 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+  
+table th {
+    background-color: #f4f4f4;
+}
+
+.activ {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: green;
+    color: white;
+}
+
+.active-bg {
+    background-color: blue;
+    color: white;
+}
+
+.complete-bg {
+    background-color: green;
+    color: white;
+}
+
+.cancelled-bg {
+    background-color: red;
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.cancelled {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+}

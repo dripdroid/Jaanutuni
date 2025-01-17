@@ -1,0 +1,37 @@
+
+.shop {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 16px;  /* Equal margin on both sides of the container */
+  box-sizing: border-box;  /* Prevent overflow due to padding */
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, calc(20% - 40px)); /* Cards with more space for gaps */
+  gap: 60px;  /* Space between the cards */
+  width: 100%;
+  box-sizing: border-box;  /* Ensure padding doesn't affect overall width */
+  margin: 0 auto; /* Center the grid horizontally */
+  justify-content: center; /* Center grid content horizontally */
+  align-items: center; /* Center grid content vertically */
+  margin-bottom: 40px; 
+}
+.hiddenDiv {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiddenDiv i {
+  font-size: 20px; /* Increase the size of the icon */
+}

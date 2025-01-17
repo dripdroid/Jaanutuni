@@ -1,0 +1,76 @@
+.container {
+    padding: 20px;
+    margin-top: -50px;
+}
+.cart {
+    padding: 20px;
+    height: 600px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+    padding-left: 200px;
+  }
+  
+  .cart-table {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 20px;
+    
+    
+  }
+  
+  .cart-table-header {
+    font-weight: bold;
+    display: contents; /* Ensures the header spans the whole grid */
+  }
+  
+  .cart-table-header span {
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  .cart-table-body {
+    display: contents; /* Allows for dynamic rows */
+  }
+  
+  .cart-table-row {
+    display: contents; /* Each row will be a part of the grid */
+    
+  }
+  
+  .cart-table-row span {
+    padding: 8px;
+  }
+  
+  .cart-table-row button {
+    padding: 8px;
+    width: 100px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .cart-table-row button:hover {
+    background-color: #ff3333;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    color: black;
+    width: 50px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;  /* Adds padding inside the links */
+    border-radius: 12px;  /* Border radius applied to each link */
+    border: 2px solid black;  /* Adds a black border around each individual link */
+    transition: background-color 0.3s;  /* Optional: for smooth background color transitions */
+  }
+  

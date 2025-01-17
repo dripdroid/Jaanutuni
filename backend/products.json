@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "6786d08691acbd0c59422000",
+    "id": 1,
+    "name": "cap",
+    "price": 25,
+    "image": "/Users/tasneemmahmud/Desktop/Jaanutuni/backend/img/image-1736888454455-573726192.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "6786d14bf7ed9bdbbffba7e6",
+    "id": 2,
+    "name": "T-shirt",
+    "price": 30,
+    "image": "/Users/tasneemmahmud/Desktop/Jaanutuni/backend/img/image-1736888651538-708434206.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "6786d2b3c7b275f6ea6abaaf",
+    "id": 3,
+    "name": "Jeans",
+    "price": 120,
+    "image": "/Users/tasneemmahmud/Desktop/Jaanutuni/backend/img/image-1736889011598-236133746.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "6786f6b81956cc653a83f640",
+    "id": 4,
+    "name": "Bag",
+    "price": 400,
+    "image": "/Users/tasneemmahmud/Desktop/Jaanutuni/backend/img/image-1736898231816-404881275.jpg",
+    "__v": 0
+  },
+  {
+    "id": 5,
+    "name": "Scarf",
+    "price": 25,
+    "image": "/img/1736900439982-360_F_121638391_0vBd0dGaT3rISNCDumNQXJbpVltl7S5x.jpg",
+    "_id": "6786ff5891be4bbb2bda75bb",
+    "__v": 0
+  },
+  {
+    "id": 6,
+    "name": "Skirt",
+    "price": 200,
+    "image": "/img/1736900470455-download.jpeg",
+    "_id": "6786ff7691be4bbb2bda75be",
+    "__v": 0
+  },
+  {
+    "id": 7,
+    "name": "Pink Bow Clip",
+    "price": 30,
+    "image": "/img/1736966857750-98424_2.jpg",
+    "_id": "678802c98a991e59fdbd72e8",
+    "__v": 0
+  }
+]
